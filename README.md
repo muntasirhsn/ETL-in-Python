@@ -20,3 +20,5 @@ Filter new rows within the tesla_raw table that do not exist in tesla_clean tabl
 1. Execute the create_tables.py file first to create tables in the SQL database
 
 2. Execute execute.py file for completing the ETL process
+
+![image](https://github.com/muntasirhsn/ETL-in-Python/assets/29087240/d242a517-fdcd-4541-a7c1-4ce6588cdb8d)
