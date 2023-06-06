@@ -16,7 +16,7 @@ Transforms the data from the csv file in the local directory (data/raw) and save
 Further transformations of tesla_raw in the SQL database 
 Filter new rows within the tesla_raw table that do not exist in tesla_clean table and insert them into tesla_clean table 
 
-# How to use:
+## How to use:
 1. Execute the create_tables.py file first to create tables in the SQL database
 
 2. Execute execute.py file for completing the ETL process
