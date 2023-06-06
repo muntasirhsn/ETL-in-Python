@@ -12,7 +12,7 @@ Defines python classes to create tables with column names and data types) in SQL
 Create tables (raw and clean) in the database with create_tables.py
 Transforms the data from the csv file in the local directory (data/raw) and saves to raw table (tesla_raw) in the database
 
-## Step 3: Load (load.py, base.py, tables.py)
+## Load (load.py, base.py, tables.py)
 Further transformations of tesla_raw in the SQL database 
 Filter new rows within the tesla_raw table that do not exist in tesla_clean table and insert them into tesla_clean table 
 
