@@ -1,5 +1,5 @@
 # ETL-in-Python
-This is a simple demonstration of extract, transform and load (ETL) process in python
+This is a simple demonstration of extract, transform and load (ETL) process in python. Tesla share price data is extracted, transformed and loaded into a PostgreSQL database. 
 
 ## Extract (extract.py)
 Local directory (data) is created for data to be saved
@@ -9,7 +9,7 @@ Rename the column names/header of the source data and save csv files data/raw
 ## Transform (base.py, tables.py, transform.py)
 Creates engine, session and base to interact with SQL database
 Defines python classes to create tables with column names and data types) in SQL database
-Create stables (raw and clean) in the database with create_tables.py
+Create tables (raw and clean) in the database with create_tables.py
 Transforms the data from the csv file in the local directory (data/raw) and saves to raw table (tesla_raw) in the database
 
 ## Step 3: Load (load.py, base.py, tables.py)
