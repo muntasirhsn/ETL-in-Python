@@ -17,10 +17,10 @@ Further transformations of tesla_raw in the SQL database
 Filter new rows within the tesla_raw table that do not exist in tesla_clean table and insert them into tesla_clean table 
 
 ## How to use:
-1. Execute the create_tables.py file first to create tables in the SQL database
+1. Execute the create_tables.py file first to create tables in the SQL database (this should be done only once i.e. only when executing the ETL process for the first time!)
 
 2. Execute execute.py file for completing the ETL process
 
 ![image](https://github.com/muntasirhsn/ETL-in-Python/assets/29087240/d242a517-fdcd-4541-a7c1-4ce6588cdb8d)
 
-3. Use an automation tool like Airflow to run the execute.py file on a schedule instead of doing it manually and new records will be automatically extracted, transformed and loaded to database! 
+3. Use an automation tool like Airflow to run the execute.py file on a schedule instead of doing it manually and new records will be automatically extracted, transformed and loaded into the database! 
