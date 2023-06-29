@@ -21,6 +21,8 @@ Filter new rows within the tesla_raw table that do not exist in tesla_clean tabl
 
 2. Execute execute.py file for completing the ETL process
 
+3. Use an automation tool like Windows Task Scheduler or Airflow to run the execute.py file on a schedule instead of doing it manually and new records will be automatically extracted, transformed and loaded into the database!
+
 ![image](https://github.com/muntasirhsn/ETL-in-Python/assets/29087240/d242a517-fdcd-4541-a7c1-4ce6588cdb8d)
 
-3. Use an automation tool like Windows Task Scheduler or Airflow to run the execute.py file on a schedule instead of doing it manually and new records will be automatically extracted, transformed and loaded into the database! 
+
